@@ -21,5 +21,3 @@ class Solution:
             ret.next = self.addTwoNumbers(l1.next,l2.next,carry)
         return ret
 
-carry = 11%10
-print(carry)
